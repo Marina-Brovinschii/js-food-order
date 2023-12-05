@@ -1,0 +1,14 @@
+<script>
+    foodName = "Salata"
+    foodPriceValue = 55.00
+    priceUnits = "lei"
+
+    clientQuantity = prompt ("MENU\n\n" + foodName + "\n\nCe cantitate doriti sa comandati?")
+
+    deliveryTax = 50.00
+
+    orderCost = foodPriceValue * clientQuantity
+    totalCost = orderCost + deliveryTax
+
+    alert("DVS ati comandat " + clientQuantity + "\nPretul comenzii " + orderCost + priceUnits + "\nPretul livrarii " + deliveryTax + priceUnits + "\nTotal spre achitare " + totalCost + priceUnits)
+</script>
